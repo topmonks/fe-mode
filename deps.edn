@@ -1,0 +1,2 @@
+{:paths ["src"]
+ :aliases {:dev {:deps {com.bhauman/figwheel-main {:mvn/version "0.2.0"}}}}}

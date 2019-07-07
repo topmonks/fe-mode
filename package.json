@@ -1,0 +1,14 @@
+{
+  "name": "@topmonks/fe-mode",
+  "version": "1.0.0",
+  "description": "Lightweight UI Libary for ClojureScript",
+  "main": "index.js",
+  "repository": "https://github.com/topmonks/fe-mode",
+  "author": "TopMonks",
+  "license": "EPL-2.0",
+  "private": false,
+  "dependencies": {
+    "@cljs-oss/module-deps": "^1.1.1",
+    "lit-html": "^1.1.0"
+  }
+}

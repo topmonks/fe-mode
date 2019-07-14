@@ -1,4 +1,5 @@
 (ns fe-mode.lit.directives
+  (:refer-clojure :exclude [repeat])
   (:require
     ["lit-html/directives/cache" :as cache]
     ["lit-html/directives/class-map" :as class-map]

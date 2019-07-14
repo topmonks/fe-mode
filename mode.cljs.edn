@@ -1,2 +1,3 @@
 {:main fe-mode.lit
- :npm-deps true}
+ :npm-deps
+ {lit-html "1.1.1"}}

@@ -1,6 +1,5 @@
 (ns fe-mode.lit
   (:require
-    [methyl.console]
     ["lit-html/lib/default-template-processor" :refer [defaultTemplateProcessor]]
     ["lit-html/lib/directive" :as directive]
     ["lit-html/lib/render" :as lit]
@@ -47,6 +46,4 @@
        container, as those changes will not effect previously rendered DOM."
   ([result container] (render result container nil))
   ([result container options]
-   (methyl.console/time ::render-time)
-   (lit/render result container options)
-   (methyl.console/time-end ::render-time)))
+   (lit/render result container options)))

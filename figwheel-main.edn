@@ -1,0 +1,4 @@
+{:watch-dirs ["src" "test"]
+ :open-url false
+ :reload-clj-files #{:cljc}
+ :auto-testing true}

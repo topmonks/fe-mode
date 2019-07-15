@@ -271,7 +271,7 @@
     (map list-item items)
     "</ul>"))
 
-(defn ^{:query [[:items]]} root [{:keys [items]}]
+(defn root {:query [[:items]]} [{:keys [items]}]
   (lit/html
     "<div>"
     (unordered-list items)

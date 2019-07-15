@@ -4,8 +4,8 @@
 
 Lightweight FE library embracing the `view = f(data)` pattern.
 
-`fe-mode.lit` is lieghtweight wrapper around [lit-html](https://lit-html.polymer-project.org/). It doesn't use 
-vDOM diffing but native browser capabilities o top of `<template>` element and Shadow DOM.
+`fe-mode.lit` is lightweight wrapper around [lit-html](https://lit-html.polymer-project.org/). It doesn't use 
+vDOM diffing but native browser capabilities on top of `<template>` element and Shadow DOM.
 
 `fe-mode.ql` is the QL part of [qlkit](https://github.com/forward-blockchain/qlkit) decoupled from React rendering. 
 It uses metadata on functions to define queries instead of custom macro syntax.

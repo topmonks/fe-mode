@@ -9,6 +9,7 @@
 ;; This code is derived work of original Qlkit by Conrad Barski decoupled from React.
 
 (ns fe-mode.ql
+  #?(:cljs (:require-macros [fe-mode.ql]))
   (:require
     [fe-mode.ql.spec :as spec]))
 

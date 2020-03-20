@@ -9,6 +9,6 @@
   "private": false,
   "dependencies": {
     "@cljs-oss/module-deps": "^1.1.1",
-    "lit-html": "^1.1.1"
+    "lit-html": "^1.2.1"
   }
 }
